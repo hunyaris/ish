@@ -1,0 +1,144 @@
+.council {
+  width: 95%;
+  height: fit-content;
+
+  margin: auto;
+}
+.text-Council h1 {
+  width: 50%;
+  height: fit-content;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(28, 34, 152);
+  text-align: end;
+}
+.text-Council h1
+
+{  width:50% ;
+    height: fit-content;
+     margin-right : auto;
+    font-weight: 700;
+    font-size: 60px;
+    color:rgb(28, 34, 152);
+  }
+.council-container {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+}
+.parents .council-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin-left: 3%;
+}
+
+.intro-parenttwo {
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+.intro-parenttwo h5{
+
+
+  font-size: 1.25rem;
+  color: rgb(92, 92, 92);
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.parents  .responsive-lotus {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10%;
+
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.text-container {
+  position: relative;
+  z-index: 2;
+}
+
+.card-text-lotus {
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 12px;
+
+  align-items: center;
+}
+
+.lotus-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
+
+
+@media (max-width: 468px) {
+  .parents .council-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 80%;
+  }
+  .parents .council-cards {
+
+    margin-left: 4%;
+  }
+  .parents h5 {
+    font-size: 20px !important ;
+
+    color: rgb(92, 92, 92);
+
+    font-weight: 500;
+
+    margin-bottom: 12px;
+
+    letter-spacing: 5px;
+  }
+
+  .parents p {
+    font-size: 0.7em !important;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    font-family: Roboto;
+
+  }
+  .parents .responsive-lotus {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10%;
+  }
+}

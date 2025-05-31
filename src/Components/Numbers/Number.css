@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.ListGroups-Number {
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: url(/images/difference.png) no-repeat scroll center
+    center;
+  background-size: cover;
+}
+
+.ListGroups-Number .list-group-horizontal {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  width: 100%;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 0 auto;
+  height: fit-content;
+  background: transparent;
+}
+
+.ListGroups-Number .list-group-horizontal > .list-group-item {
+  border: 0;
+  padding: 10px;
+  width: 30%;
+  height: fit-content;
+  display: block;
+  background: transparent;
+  margin: 10px;
+}
+
+.ListGroups-Number .list-group-horizontal > .list-group-item .circle-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contenedor-raya-vertical {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+
+
+}
+
+
+
+.number-vertical {
+  color: #fff;
+}
+
+.pace-vertical {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 80%;
+  text-align: start;
+}
+
+.recta-vertical {
+  border-left: 3px solid;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+}
+
+.label-vertical {
+  margin-top: 5px;
+}
+@media (max-width: 468px) {
+  .ListGroups-Number .list-group-horizontal {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .ListGroups-Number .list-group-horizontal > .list-group-item {
+    width: 40%;
+    margin: 1%;
+  }
+
+  .ListGroups-Number {
+    background: url(/images/difference-sx.png) no-repeat scroll
+      center center;
+    background-size: contain;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+  .ListGroups-Number {
+
+    background-size: contain;
+    width: 100%;
+  }
+
+  .ListGroups-Number {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .ListGroups-Number .list-group-horizontal > .list-group-item {
+    flex: 1 1 20%;
+    max-width: 150px;
+  }
+
+  .ListGroups-Number .list-group-horizontal {
+    flex-wrap: wrap;
+  }
+
+
+}
+
+

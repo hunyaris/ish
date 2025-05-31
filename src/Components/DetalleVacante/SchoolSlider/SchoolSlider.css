@@ -1,0 +1,241 @@
+.section-SliderSchool {
+  width: 90%;
+  max-height: 750px;
+
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.section-SliderSchool .slick-next::before {
+    content: '>' !important;
+  }
+
+  .section-SliderSchool .slick-prev::before {
+    content: '<' !important;
+  }
+
+
+.section-SliderSchool .slick-prev {
+    left: 11% ;
+    top: 30% ;
+  }
+  .section-SliderSchool .slick-next {
+    right: 16% ;
+    top: 30% ;
+
+  }
+
+  .section-SliderSchool .slick-prev,
+  .slick-next {
+    z-index: 1 !important;
+  }
+
+  .section-SliderSchool .slick-prev::before {
+    font-family: "slick" !important;
+    font-size: 50px !important;
+    line-height: 1.8 !important;
+    opacity: 1 !important;
+    color:  rgb(215, 174, 100) !important;
+    height: 50px !important;
+    width: 50px !important;
+
+    display: block !important;
+    z-index: 9 !important;
+  }
+
+  .section-SliderSchool .slick-next::before {
+    font-family: "slick" !important;
+    font-size: 50px !important;
+    line-height: 1.8 !important;
+    opacity: 1 !important;
+    color:  rgb(215, 174, 100) !important;
+    height: 50px !important;
+    width: 50px !important;
+
+    display: block !important;
+    z-index: 9 !important;
+  }
+  .section-SliderSchool .carouselControles .slick-dots li.slick-active button::before {
+    color: #fff !important;
+  }
+
+  .section-SliderSchool .slick-slider {
+    height: 920px !important;
+  }
+
+  .section-SliderSchool .slick-slide {
+    height: 920px !important;
+  }
+
+  .slider-school .section-SliderSchool .listControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+  }
+  .section-SliderSchool .carouselControles .slick-dots {
+    height: auto !important;
+    max-width: none !important;
+    bottom: 30px !important;
+  }
+
+  .section-SliderSchool .carouselControles .slick-dots li button::before {
+    color: #fff !important;
+    font-size: 18px !important;
+  }
+
+  .section-SliderSchool  .carouselControles .slick-dots {
+    height: auto !important;
+    max-width: none !important;
+    bottom: 30px !important;
+  }
+   .section-SliderSchool .carouselControles .slick-dots li button::before {
+    color: #fff !important;
+    font-size: 18px !important;
+  }
+
+
+
+    .section-SliderSchool .slick-slide img {
+      width: 100%;
+      height: auto;
+      max-height: 86vh;
+      object-fit: cover;
+      mask-image: url(/images/mascara-blanca.png);
+      mask-size: 70%;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      margin-right: -65%;
+
+    }
+
+
+
+
+.section-SliderSchool .modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.section-SliderSchool .modalContent {
+position: relative;
+background: #f5eeee;
+padding: 20px;
+border-radius: 0;
+max-width: 65%;
+max-height: 90vh;
+overflow: auto;
+}
+
+.section-SliderSchool .modalContent img {
+  width: 100%;
+  height: fit-content !important;
+}
+
+.section-SliderSchool .closeButton {
+  position: absolute;
+  top: -7px !important;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+/*
+
+  @media screen and (max-width: 768px) {
+
+
+    .carrusel {
+      height: 40vh;
+    }
+
+    .section-SliderSchool {
+      height: 60vh;
+    }
+
+    .section-SliderSchool .slick-slide img {
+      height: auto;
+      max-height: 60vh;
+    }
+
+
+
+  } */
+
+  @media screen and (max-width: 768px) {
+
+    .modalContent {
+      max-width: 95%; /* Aumenta el ancho del modal en pantallas pequeñas */
+      max-height: 90vh; /* Mantiene la altura máxima */
+  }
+
+  .modalContent img {
+      max-height: 80vh; /* Ajusta la altura de la imagen en pantallas pequeñas */
+  }
+    .carrusel {
+      height: 30vh;
+    }
+    .section-SliderSchool {
+      height: 55vh; /* Limitar aún más en pantallas muy pequeñas */
+    }
+    .section-SliderSchool .slick-slide img {
+      width: 100% !important;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      object-fit: contain;
+    }
+
+
+    .section-SliderSchool .slick-next {
+      right: 6% !important;
+      margin-top: -36%;
+    }
+
+    .section-SliderSchool .slick-prev {
+      margin-left: -11% !important;
+      margin-top: -36%;
+    }
+
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px){
+
+    .section-SliderSchool .slick-slide img {
+
+        width: 100% !important;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        object-fit: contain;
+      }
+
+
+
+    .section-SliderSchool .modalContent {
+      position: relative;
+      background: #f5eeee;
+      padding: 20px;
+      border-radius: 0;
+      max-width: 65%;
+      /* max-height: 90vh; */
+      overflow: auto;
+
+      /* margin-bottom: -28%; */
+    }
+
+  }

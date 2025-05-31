@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.section-carrusel .slick-next::before,
+.section-carrusel .slick-prev::before {
+  font-family: "slick" !important;
+  font-size: 10vw !important; /* Mantener un tamaño adecuado en pantallas pequeñas */
+  line-height: 1.8 !important;
+  opacity: 1 !important;
+  color:#fff !important;
+  height: 50px !important; /* Tamaño fijo de los botones */
+  width: 50px !important;
+  display: block !important;
+  z-index: 10 !important;
+}
+
+.section-carrusel {
+  position: relative;
+  width: 100% !important;
+  height: fit-content !important;
+  overflow: hidden;
+}
+
+.section-carrusel .slider-image {
+  width: 100% !important;
+  height: 900px !important;
+  object-fit: cover !important;
+}
+
+.carouselControles {
+  width: 100%;
+}
+
+.section-carrusel .slick-prev {
+  left: 3% !important;
+}
+.section-carrusel .slick-next {
+  right: 5% !important;
+}
+
+.section-carrusel .slick-prev,
+.slick-next {
+  z-index: 10 !important;
+}
+
+.section-carrusel .slick-next::before {
+  content: ">" !important;
+}
+
+.section-carrusel .slick-prev::before {
+  content: "<" !important;
+}
+.section-carrusel .slick-prev::before {
+  font-family: "slick" !important;
+  font-size: 4vw !important;
+  line-height: 1.8 !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+  height: 50px !important;
+  width: 50px !important;
+  display: block !important;
+}
+
+.section-carrusel .slick-next::before {
+  font-family: "slick" !important;
+  font-size: 4vw !important;
+  line-height: 1.8 !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+  height: 50px !important;
+  width: 50px !important;
+  display: block !important;
+}
+
+.section-carrusel .slick-slider {
+  height: 900px !important; /* Ajustar a contenido */
+}
+
+.section-carrusel .slick-slide {
+  height: 900px !important; /* Ajustar a contenido */
+}
+
+.section-carrusel .listControl {
+  width: 100% !important;
+  height: 900px !important;
+  animation: fadeIn 0.5s forwards; /* Animación al aparecer */
+}
+.carouselControles .slick-dots {
+  display: none !important;
+}
+
+.section-carrusel .slick-slide img {
+  width: 100% !important; /* Imagen ocupa todo el ancho del contenedor */
+  height: 900px !important; /* Mantiene relación de aspecto */
+  object-fit: cover !important; /* Asegura que la imagen cubra el área sin distorsionar */
+}
+
+.home {
+
+
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.home .content {
+  background: url("") no-repeat scroll center center !important;
+  background-size: cover;
+  position: relative;
+  width: 100% !important;
+  height: 100%;
+
+  background-color: rgba(12, 12, 12, 0.86) !important;
+}
+
+.home .container-content {
+  background-color: rgba(12, 12, 12, 0.86) !important;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0.8;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-large-slider {
+  position: relative;
+  width: 100%;
+}
+
+.text-slider {
+  position: absolute !important;
+  bottom: 20%; /* Aumentar la distancia del fondo (más arriba) */
+  left: 15%; /* Mover el recuadro más a la izquierda */
+  right: auto; /* No es necesario establecerlo si solo usas left */
+  transform: none; /* No se necesita transformar */
+  color: white; /* Color del texto */
+  font-size: 2vw; /* Aumentar el tamaño del texto */
+  font-weight: 700; /* Hacer el texto en negrita más pronunciada */
+  padding: 10px; /* Espaciado alrededor del texto */
+  max-width: 80%; /* Máximo ancho del recuadro */
+  white-space: normal; /* Permitir que el texto se ajuste a varias líneas */
+  word-wrap: break-word; /* Permitir el salto de palabra si es necesario */
+  text-align: left; /* Centrar el texto dentro del recuadro */
+  line-height: 1.5; /* Espacio entre líneas */
+  z-index: 20; /* Aumentar el z-index para asegurar que está por encima de otros elementos */
+  animation: fadeIn 0.5s forwards; /* Animación al aparecer */
+
+  background: linear-gradient(
+    90deg,
+    rgba(18, 211, 58, 0.5) 0%,
+    rgba(12, 25, 230, 0.3) 93%
+  );
+
+  width: 30%;
+}
+
+hr {
+  border: none;
+  border-left: 1px solid hsl(197.1, 18.9%, 92.7%);
+  height: 6vh;
+  width: 1px;
+  margin-top: 50px;
+}
+
+.home-presentation-container {
+  width: 80%;
+  height: 100%;
+  display: block;
+}
+
+.home-presentation-slogan {
+  width: 100%;
+  height: 75%;
+  display: block;
+}
+
+.divRelleno {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+}
+
+.Slogan {
+  width: 100%;
+  height: 20%;
+  display: block;
+  margin-left: 16%;
+}
+.divhtres {
+  width: 35%;
+  height: fit-content;
+  margin: unset;
+}
+
+.divpp {
+  width: fit-content;
+  height: fit-content;
+}
+
+.htres {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.htres,
+.pp {
+  text-align: start;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*  Responsive */
+@media (max-width: 468px) {
+  .text-slider {
+    font-size: 6vw;
+    bottom: 10%;
+    width: 80%;
+  }
+
+  .section-carrusel {
+    display: none;
+  }
+
+  .section-carrusel .slick-next::before,
+  .section-carrusel .slick-prev::before {
+    font-family: "slick" !important;
+    font-size: 10vw !important;
+    line-height: 1.8 !important;
+    opacity: 1 !important;
+    color: #1c2298 !important;
+    height: 50px !important;
+    width: 50px !important;
+    display: block !important;
+    z-index: 10 !important;
+  }
+}
+
+/* Para dispositivos con un ancho máximo de 768px */
+@media (max-width: 768px) {
+  .text-slider {
+    font-size: 3vw;
+    bottom: 10%;
+    width: 40%;
+    bottom: 10%; /* Aumentar la distancia del fondo (más arriba) */
+    left: 19%; /* Mover el recuadro más a la izquierda */
+    right: auto; /* No es necesario establecerlo si solo usas left */
+  }
+
+  .section-carrusel .slick-next::before,
+  .section-carrusel .slick-prev::before {
+    font-family: "slick" !important;
+    font-size: 8vw !important; /* Mantener un tamaño adecuado para tabletas */
+    line-height: 1.8 !important;
+    opacity: 1 !important;
+    color: #1c2298 !important;
+    height: 50px !important; /* Tamaño fijo de los botones */
+    width: 50px !important;
+    display: block !important;
+    z-index: 10 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text-slider {
+    font-size: 4vw;
+    bottom: 10%;
+    width: 60%;
+  }
+  .section-carrusel .slick-next::before,
+  .section-carrusel .slick-prev::before {
+    font-family: "slick" !important;
+    font-size: 8vw !important;
+    line-height: 1.8 !important;
+    opacity: 1 !important;
+    color: #ffffff !important;
+    height: 50px !important; /* Tamaño fijo de los botones */
+    width: 50px !important;
+    display: block !important;
+
+  }
+  .section-carrusel .slick-prev, .slick-next {
+    z-index: 8 !important;
+  }
+}

@@ -1,0 +1,688 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.head-sitios {
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  background: url(/images/school.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.studentsuccess {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ancho1 {
+  width: 20% !important;
+
+  padding-right: 0 !important;
+}
+
+.ancho2 {
+  width: 80% !important;
+
+  display: flex !important;
+  /* padding-left: 0 !important; */
+}
+
+.studentlifeExtra {
+  background: url(/images/rect-verde.png) no-repeat center center;
+  width: 30%;
+  max-width: 300px;
+  height: 50vh;
+  min-height: 200px; /* Cambié para evitar que sea muy alto en pantallas pequeñas */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  margin-top: -65px;
+}
+
+.texto-con-cuadroExtra {
+  background: linear-gradient(
+    90deg,
+    rgba(144, 174, 110, 0.4) 0%,
+    rgba(6, 6, 6, 0.3) 93%
+  );
+  padding: 100px;
+  border-radius: 0;
+  margin-left: 10%;
+  margin-top: 11%;
+  width: 700px;
+  height: fit-content;
+}
+
+.ancho33 {
+  width: 50%;
+  align-content: center;
+  margin-left: 9%;
+
+  }
+
+/* RECUERDA EL RESPOSIVO */
+
+.titleStudentLife {
+  font-size: 10vh;
+  color: #6694b4;
+  font-weight: 700;
+
+  margin-top: 15% !important;
+}
+
+.bodySchoolStudenLife {
+  background-color: #b7a06d;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  z-index: 0;
+  /* clip-path: ellipse(74% 47% at 100% 51%); */
+  clip-path: circle(50% at 96% 50%);
+  position: relative;
+  margin-left: 4%;
+  align-items: center;
+}
+
+.cuadrobodyTextoLife {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: end;
+  width: 47%;
+  height: fit-content;
+}
+
+.services {
+  width: 90%;
+  margin-top: 70px;
+}
+.services-ch {
+  width: 90%;
+
+  position: relative;
+
+  height: fit-content;
+
+  display: flex;
+  margin-right: auto;
+}
+
+.services-EAL-1-1 {
+  width: 100% !important;
+  margin: 0 auto;
+  height: 70% !important;
+
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  background: url(/images/azul-transpot.png) no-repeat center center;
+}
+
+.services-1-2 {
+  width: 30% !important;
+
+  height: 60% !important;
+
+  margin-left: auto;
+}
+
+.services-1-2 .card {
+  background: none;
+  border: none;
+}
+
+.services-EAL-1-1 ul {
+  display: flex !important;
+  flex-direction: column !important;
+  list-style: disc;
+  padding: 0;
+  margin-right: auto;
+  justify-content: stretch;
+  margin-left: 5%;
+  margin-top: 6%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+  width: 40%;
+
+
+
+}
+
+.services-EAL-1-1 ul li {
+  margin-top: 20px;
+}
+
+.test {
+  width: 100%;
+  height: fit-content;
+  margin-top: 70px;
+}
+
+.servicesC {
+  width: 90%;
+
+  position: relative;
+
+  height: fit-content;
+
+  display: flex;
+  margin-left: auto;
+}
+
+.services-1-1C {
+  width: 30% !important;
+  margin-left: -1%;
+  height: auto;
+
+  flex-direction: column;
+
+  position: relative;
+  height: fit-content;
+}
+
+.text-with-outline {
+  color: white; /* Color del texto en el medio */
+
+  text-shadow: -1px -1px 0 #1c2298, 1px -1px 0 #1c2298, -1px 1px 0 #1c2298,
+    1px 1px 0 #1c2298; /* Genera un contorno azul */
+}
+.services-IEP-1-2C {
+  width: 100% !important;
+  height: 76%;
+  margin-left: auto;
+
+  background: url(/images/MESA-2-LIaa.png) no-repeat center center;
+  position: absolute;
+}
+
+.services-IEP-1-2C ul {
+  list-style: none;
+  list-style-type: none;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 960px;
+}
+
+.services-IEP-1-2C ul {
+  display: flex !important;
+  flex-direction: column !important;
+  list-style: none;
+  padding: 0;
+  margin-right: auto;
+  justify-content: stretch;
+  margin-left: 30%;
+  margin-top: 6%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+
+
+}
+
+.services-IEP-1-2C li {
+  margin: 10px 0;
+}
+
+.services-1-1C .card {
+  background: none;
+  border: none;
+}
+
+.servicesT {
+  width: 90%;
+
+  height: fit-content;
+  margin-top: 70px;
+}
+
+.services-chT {
+  width: 90%;
+
+  position: relative;
+
+  height: fit-content;
+
+  display: flex;
+  margin-right: auto;
+}
+
+.services-CS-1-1T {
+  width: 100% !important;
+  margin: 0 auto;
+  height: 70% !important;
+
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  background: url(/images/azul-transpot.png) no-repeat center center;
+}
+
+.services-1-2T {
+  width: 30% !important;
+
+  height: 60% !important;
+
+  margin-left: auto;
+}
+
+.services-1-2T .card {
+  background: none;
+  border: none;
+}
+
+.services-CS-1-1T ul {
+  display: flex !important;
+  flex-direction: column !important;
+  list-style: none;
+  padding: 0;
+  margin-right: auto;
+  justify-content: stretch;
+  margin-left: 5%;
+  margin-top: 6%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.services-chT li {
+  margin-top: 5%;
+}
+
+.css-1d6wzja-MuiButton-startIcon {
+  font-size: 30px !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 13px !important;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 400px;
+  padding: 6px 16px;
+  border-radius: 35px !important;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ad8f48 !important;
+  background-color: #e5e5e5 !important;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  width: 300px !important;
+  height: 70px !important;
+}
+
+.studentlife .css-1d6wzja-MuiButton-startIcon > :nth-of-type(1) {
+  font-size: 30px !important;
+  color: #1c2298 !important;
+}
+.studentlife .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 400px !important;
+}
+
+.studentlife .css-1d6wzja-MuiButton-startIcon > :nth-of-type(1) {
+  font-size: 30px !important;
+}
+.services-1-2C .css-1d6wzja-MuiButton-startIcon > :nth-of-type(1) {
+  font-size: 30px !important;
+  color: #1c2298 !important;
+}
+
+.services-1-1T .css-1d6wzja-MuiButton-startIcon > :nth-of-type(1) {
+  font-size: 30px !important;
+}
+
+.ancho33 {
+  width: 50%;
+  align-content: center;
+  margin-left: 9%;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: end;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .ancho33 {
+    width: 100%;
+    align-content: center;
+    margin-left: -16%;
+    margin-top: 0%;
+    margin-bottom: 1rem;
+    text-align: end;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 1em;
+  }
+  .titleStudentLife {
+    font-size: 20px !important;
+    color: #1c2298 !important;
+    font-weight: 700;
+    margin-top: 15% !important;
+  }
+  .services {
+    width: 90%;
+    margin-top: 90px !important;
+    margin: auto;
+  }
+  .bodySchoolStudenLife {
+    display: none;
+  }
+
+  .studentlifeExtra {
+    background: none;
+    width: 30%;
+    max-width: 300px;
+    height: 50vh;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -65px;
+  }
+
+  .studentlife {
+    height: 200px;
+  }
+
+  .services-EAL-1-1 {
+    width: 50% !important;
+    margin-left: auto;
+    height: 70% !important;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+    background: none;
+    margin-left: 64%;
+    margin-top: -16%;
+  }
+  .services-IEP-1-2C {
+    width: 100% !important;
+    height: 76%;
+    margin-left: -35%;
+    background: none;
+    position: absolute;
+    margin-top: 9%;
+  }
+
+  .servicesT {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: -23%;
+  }
+  .services-CS-1-1T {
+    width: 100% !important;
+    margin: 0 auto;
+    height: 70% !important;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+    background: none;
+  }
+  .services-EAL-1-1 ul {
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: disc;
+    padding: 0;
+    margin-right: auto;
+    justify-content: stretch;
+    margin-left: 5%;
+    margin-top: 6%;
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: -40%;
+    letter-spacing: 1px !important;
+    font-family: Roboto;
+    height: 250px;
+    overflow-y: auto;
+    width: 80% !important;
+  }
+
+  .services-1-2 {
+    width: 50% !important;
+    height: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    margin-top: -36%;
+    margin-left: 9%;
+  }
+
+  .services-1-2 .card p {
+    font-size: 12px !important;
+    color: rgb(92, 92, 92);
+    line-height: 1.5 !important;
+    letter-spacing: 1px !important;
+    color: rgb(92, 92, 92) !important;
+    font-family: Roboto;
+  }
+
+  .services-1-2 .card h5 {
+    margin-bottom: -15px !important;
+  }
+
+  .services-IEP-1-2C ul {
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: disc;
+    padding: 0;
+    margin-right: auto;
+    justify-content: stretch;
+
+    margin-top: 6%;
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: -40%;
+    letter-spacing: 1px !important;
+    font-family: Roboto;
+    height: 250px;
+    overflow-y: auto;
+  }
+
+  .services-1-1C {
+    width: 62%;
+    margin-left: 58%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    margin-top: -18%;
+    width: 50% !important;
+    height: 60% !important;
+  }
+
+  .services-1-1C .card p {
+    font-size: 12px !important;
+    color: rgb(92, 92, 92);
+    line-height: 1.5 !important;
+    letter-spacing: 1px !important;
+    color: rgb(92, 92, 92) !important;
+    font-family: Roboto;
+  }
+  .services-1-1C .card h5 {
+    margin-bottom: -15px !important;
+  }
+  .services-IEP-1-2C {
+    width: 100% !important;
+    height: 76%;
+    margin-right: auto;
+    background: none;
+    position: absolute;
+    margin-top: 0%;
+  }
+
+  .services-1-2T {
+    width: 50% !important;
+    height: 60% !important;
+    margin-right: 48% !important;
+    margin-top: 32% !important;
+  }
+
+  .services-1-2T .card p {
+    font-size: 12px !important;
+    color: rgb(92, 92, 92);
+    line-height: 1.5 !important;
+    letter-spacing: 1px !important;
+    color: rgb(92, 92, 92) !important;
+    font-family: Roboto;
+  }
+
+  .services-1-2T .card h5 {
+    margin-bottom: -15px !important;
+  }
+  .services-CS-1-1T ul {
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: none;
+    padding: 0;
+    margin-right: auto;
+    justify-content: stretch;
+    margin-top: 4% !important;
+    margin-left: 50% !important;
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px !important;
+
+  }
+
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 400px;
+    padding: 6px 16px;
+    border-radius: 5px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #ad8f48 !important;
+    background-color: #e5e5e5 !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    width: 167px !important;
+    height: 44px !important;
+    font-size: 12px !important;
+  }
+
+  .studentlife .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 200px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .studentlifeExtra {
+    background: none !important ;
+    width: 30%;
+    max-width: 300px;
+    height: 50vh;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -65px;
+  }
+
+  .services-EAL-1-1{
+    width: 90% !important;
+    margin: 0 auto;
+    height: 70% !important;
+    display: flex;
+    position: inherit !important;
+    z-index: 1;
+    opacity: 0.8;
+    background: url(/images/verde-health.png) no-repeat center
+      center;
+  }
+  .bodySchoolStudenLife {
+    display: none !important;
+  }
+
+  .studentlifeExtra {
+    background: none !important;
+  }
+
+  .titleStudentLife {
+    font-size: 5vh !important;
+    color: #6694b4;
+    font-weight: 700;
+    margin-top: 15% !important;
+  }
+  .studentlifeExtra h1 {
+    color: #6694b4 !important;
+    font-size: 3vh !important;
+  }
+  .ancho33 {
+    width: 80%;
+    align-content: end;
+    margin-left: 16%;
+    margin-bottom: 1rem;
+    text-align: end;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+
+  }
+
+  .studentlife .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 200px !important;
+    height: 50px !important;
+  }
+
+  .ancho2 {
+    width: 80% !important;
+    display: flex !important;
+    padding-left: 0 !important;
+    height: 200px !important ;
+  }
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.section-academics {
+  background: url(/images/S2-Classroom.JPG) no-repeat scroll center
+    center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-academics .divOpacity {
+  position: absolute;
+  background-color: rgba(162, 162, 158, 0.5);
+  position: relative;
+  width: 100%;
+  min-height: 800px !important;
+  margin-top: 0 !important;
+}
+.section-academics .te {
+  color: white !important ;
+}
+
+.section-academics .px-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.section-academics .mt-5 {
+  margin-top: 5% !important;
+}
+.section-academics .card {
+  position: relative;
+  overflow: visible;
+  width: 100px !important;
+  height: fit-content !important;
+  border: 0 !important;
+  overflow: hidden;
+  background: none;
+  margin: 100px !important;
+  overflow: hidden;
+  flex-grow: 1;
+  padding-left: 4em !important;
+}
+
+.section-academics .card-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 !important;
+  width: 300px !important;
+}
+
+.section-academics .card-img {
+  width: 100%;
+  height: fit-content !important;
+  object-fit: cover;
+}
+
+.section-academics .card:hover .card-img img {
+  transform: none !important;
+  transition: none !important;
+}
+
+.section-academics .card:hover .card-img img {
+  transform: none !important;
+  transition: none !important;
+}
+.section-academics .card-titulos {
+  background-color: rgba(169, 169, 169, 0.8);
+  padding: 10px;
+  z-index: 2;
+}
+
+.section-academics .card-img,
+.card-img-top,
+.card-img-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.section-academics .card-img,
+.card-img-top,
+.card-img-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+@media (max-width: 468px) {
+  .section-academics .card {
+    position: relative;
+    overflow: visible;
+    width: calc(100% - 2em);
+    height: fit-content;
+    border: 0;
+    background: none;
+    margin: 10px auto;
+    flex-grow: 1;
+    align-items: center;
+    padding-right: 15%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-academics .card {
+    position: relative;
+    overflow: visible;
+    width: calc(100% - 2em);
+    height: fit-content;
+    border: 0;
+    background: none;
+    margin: 20% auto;
+    flex-grow: 1;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-academics .card {
+    padding-left: unset !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .section-academics .card {
+    position: relative !important;
+    overflow: visible;
+    width: calc(
+      25% - 40px
+    ) !important;
+    height: fit-content !important;
+    border: 0 !important;
+    background: none !important;
+    margin: 10px auto !important;
+    flex-grow: 1 !important;
+    align-items: center !important;
+  }
+}

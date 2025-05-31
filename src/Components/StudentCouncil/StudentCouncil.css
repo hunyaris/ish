@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.head-council {
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  background: url(/images/Actividad_extraescolar_niños.jpg)
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.text-Activities h1 {
+  width: 50%;
+  height: fit-content;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+  text-shadow: rgba(28, 34, 152, 0.8) -1px -1px 0px, rgba(23, 50, 199, 0.8) 1px -1px 0px, rgba(8, 27, 101, 0.8) -1px 1px 0px, rgba(34, 1, 193, 0.8) 1px 1px 0px;
+
+}
+/* .colectivo {
+  background-image: url("/images/AMARILLO-PRIMARY.png");
+
+  background-repeat: no-repeat;
+
+  background-size: 30% 80%;
+
+  right: 0;
+
+  background-position: 95% -10%;
+} */
+
+.intro-council {
+  display: flex;
+  flex-direction: column;
+
+
+  justify-content: center;
+  align-items: center;
+}
+.intro-council-text {
+  padding: 20px;
+  background-image: url("/images/we-we.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 100%;
+}
+.intro-council-ver {
+  width: 20%;
+  height: fit-content;
+}
+.intro-council-words {
+  width: 20%;
+  height: fit-content;
+
+  background-color: rgb(255, 180, 127);
+}
+.council-text {
+  max-width: 80%;
+  font-size: 1.5em;
+  margin: 0 auto;
+  margin-inline-start: inherit;
+}
+
+.intro-council-text {
+  padding: 20px;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+
+
+@media (max-width: 468px) {
+  .text-Activities h1 {
+    font-size: 3rem;
+  }
+
+  .council-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+
+  }
+
+  .intro-council-text {
+    width: 100% !important;
+  }
+
+  .intro-council {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}

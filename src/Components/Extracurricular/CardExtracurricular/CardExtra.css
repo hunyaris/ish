@@ -1,0 +1,403 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.card-container .card {
+  grid-column: 1 / -1;
+  /* height: 50vh !important; */
+  height: fit-content !important;
+  background: none !important;
+border: none !important;
+  position: relative !important;
+
+
+}
+
+.openImageButton {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.openImageButton:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+
+  color: rgb(34, 40, 155) !important;
+}
+
+
+.card-container .card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.card-container .card .card-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  position: relative !important;
+}
+
+.card-container .card:nth-child(1) .card-img {
+  height: 30vh;
+  width: 80vh;
+
+}
+
+.card-container .card:nth-child(2) .card-img {
+  height: 30vh;
+  width: 50vh;
+}
+
+.card-container .card:nth-child(3) .card-img {
+  height: 80vh;
+  width: 90vh;
+}
+
+.card-container .card:nth-child(4) .card-img {
+  height: 30vh;
+  width: 70vh;
+}
+
+.card:hover .card-img img {
+  transform: scale(1.2);
+  transition: transform 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.card-container .card:nth-child(1) {
+    margin-top: 20px;
+  }
+
+  .card-container .card:nth-child(2) {
+    margin-top: 60px;
+  }
+
+  .card-container .card:nth-child(3) {
+    margin-top: 80px;
+  }
+
+  .card-container .card:nth-child(4) {
+    margin-top: 85px;
+  }
+
+  .extra-modal .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+
+    justify-content: center;
+    overflow: auto;
+   z-index: 10 ;
+  }
+
+  .extra-modal .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0;
+    width: 80%;
+    max-height: 800px;
+    overflow-y: auto;
+  }
+  .extra-modal .modalBody {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+  }
+
+  .extra-modal  .modalImageE {
+    width: 90%;
+    height: auto;
+    margin: auto;
+   padding: 2px;
+  }
+
+  .extra-modal  .modalText {
+    flex: 1;
+    margin: auto;
+
+
+
+  }
+
+  .extra-modal  .modalText h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    font-family: Roboto;
+  }
+
+  .extra-modal  .modalText p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    font-family: Roboto;
+  }
+
+
+  .extra-modal   .modalButton {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: white;
+    color: rgba(34, 40, 155, 0.8);
+
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 40px;
+font-weight: 700;
+}
+
+
+.extra-modal .closeButton{
+
+  margin-left: 95%;
+  font-size: 24px;
+  cursor: pointer;
+
+
+}
+@media (max-width: 768px) {
+  .extra-modal .modalText h3 {
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
+    font-family: Roboto;
+  }
+
+  .extra-modal .modalImageE {
+    width: 100%;
+    height: auto !important;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .card-container .card {
+    margin-top: -10%;
+
+  }
+
+  .card-container .card:nth-child(1) {
+    margin-top: -20px;
+  }
+
+  .card-container .card:nth-child(2) {
+    margin-top: -70%;
+  }
+
+  .card-container .card:nth-child(3) {
+    margin-top: -30%;
+  }
+
+  .card-container .card:nth-child(4) {
+    margin-top: -85%;
+  }
+
+
+  .card-container {
+    gap: 10px;
+  }
+   .extra-modal .modalContent {
+    width: 85%;
+    margin-right: 0%;
+    max-width: 95%;
+  }
+
+  .extra-modal  .modalText p {
+    font-size: 1rem;
+    font-family: Roboto;
+  }
+
+  .extra-modal  .modalButton {
+    font-size: 20px;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.card-container .card {
+    height: auto;
+}
+
+.card-container .card .card-img {
+    height: 40vh;
+}
+
+.card-container .card:nth-child(1) .card-img {
+    height: 25vh;
+    width: 40vh;
+
+}
+
+.card-container .card:nth-child(2) .card-img {
+    height: 25vh;
+    width: 40vh;
+
+}
+
+.card-container .card:nth-child(3) .card-img {
+    height: 40vh;
+    width: 40vh;
+
+}
+
+.card-container .card:nth-child(4) .card-img {
+    height: 25vh;
+    width: 40vh;
+
+
+}
+
+
+
+.extra-modal .modalContent {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0;
+  width: 80%;
+
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+
+.extra-modal  .modalImageE {
+  width: 100%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .extra-modal .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0;
+    width: 80%;
+
+    max-height: 600px;
+    overflow-y: scroll;
+  }
+
+
+
+
+  .extra-modal  .modalImageE {
+    width: 100%;
+
+  }
+
+  .card-container .card:nth-child(1) {
+    margin-top: -20px;
+  }
+
+
+  .card-container .card:nth-child(2) {
+    margin-top: -70%;
+  }
+
+  .card-container .card:nth-child(3) {
+    margin-top: -55%;
+  }
+
+  .card-container .card:nth-child(4) {
+    margin-top: -85%;
+  }
+
+
+
+  .card-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas en tabletas */
+      gap: 10px; /* Espacio entre elementos de la cuadrícula */
+  }
+
+  .card-container .card {
+
+    height:  auto;
+    width: 50vh !important;
+    margin-left: -25% !important;
+  }
+
+  .card-container .card .card-img {
+      height: 35vh; /* Ajustar altura de la imagen para tabletas */
+  }
+
+
+
+
+
+  .extra-modal .modalText p {
+      font-size: 0.95rem; /* Texto ligeramente más pequeño en tabletas */
+  }
+
+  .openImageButton {
+      padding: 6px; /* Ajustar el relleno del botón */
+  }
+
+  .card-container .card:nth-child(1) .card-img {
+    height: auto; /* altura de la imagen de la primera card */
+    width: 50vh ;
+
+}
+
+.card-container .card:nth-child(2) .card-img {
+    height: auto; /* altura de la imagen de la segunda card */
+    width: 50vh ;
+
+}
+
+.card-container .card:nth-child(3) .card-img {
+    height: auto; /* altura de la imagen de la tercera card */
+    width: 50vh ;
+
+}
+
+.card-container .card:nth-child(4) .card-img {
+    height: auto; /* altura de la imagen de la cuarta card */
+    width: 50vh ;
+
+
+
+
+}
+
+
+
+
+}

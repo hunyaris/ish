@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.Section-ParentCouncilSlider {
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Section-ParentCouncilSlider .slick-slider {
+  width: 80%;
+}
+
+.Section-ParentCouncilSlider .slick-next {
+  z-index: 1;
+  margin-top: -6% !important;
+  margin-right: -4%;
+}
+.Section-ParentCouncilSlider .slick-prev {
+  z-index: 1;
+  margin-top: -7% !important;
+  margin-left: 18%;
+}
+
+.Section-ParentCouncilSlider .slick-prev::before {
+  font-size: 80px !important;
+  font-weight: 800 !important;
+
+  color: rgb(255, 177, 8);
+  height: 50px !important;
+  width: 50px !important;
+
+  display: block !important;
+  align-items: center;
+  align-content: center;
+}
+
+.Section-ParentCouncilSlider .slick-next::before {
+  font-size: 80px !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  color: rgb(255, 177, 8);
+
+  display: block !important;
+  align-items: center;
+  align-content: center;
+
+    margin-top: 26px;
+
+}
+.Section-ParentCouncilSlider .carouselControles .slick-dots {
+  bottom: 10px;
+}
+.Section-ParentCouncilSlider .slick-prev::before {
+  content: "<";
+}
+.Section-ParentCouncilSlider .slick-next::before {
+  content: ">";
+}
+
+.card-parent-council {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  padding: 20px;
+}
+.card-parent-council .img {
+  max-width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-parent-council .img-narrow {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-parent-council .img {
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-parent-council .text {
+  padding: 10px;
+  text-align: right;
+  width: 100%;
+  font-family: Roboto;
+  color: rgb(92, 92, 92);
+}
+
+.text p {
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: max-height 0.3s ease;
+  font-family: Roboto;
+}
+
+.text p.expanded {
+  max-height: none;
+  white-space: normal;
+}
+.toggle-button {
+  background-color: rgb(255, 177, 8);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.toggle-button:hover {
+  background-color: rgb(255, 148, 0);
+  transform: translateY(-2px);
+}
+
+
+.toggle-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 177, 8, 0.5);
+}
+
+.toggle-button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 468px) {
+  .text h3 {
+    font-size: 1.2rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+  }
+
+  .card-parent-council .img {
+    max-width: 90%;
+    height: auto;
+  }
+  .card-parent-council .img-narrow {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+  }
+  .Section-ParentCouncilSlider .card {
+    width: 100%;
+  }
+  .Section-ParentCouncilSlider .slick-prev {
+    z-index: 1;
+    margin-top: -6% !important;
+    margin-left: 6%;
+  }
+  .Section-ParentCouncilSlider .slick-next {
+    z-index: 1;
+    margin-top: -6% !important;
+    margin-right: 0;
+
+  }
+  .Section-ParentCouncilSlider .slick-prev::before {
+    font-size: 30px !important;
+    font-weight: 800 !important;
+
+    color: rgb(255, 177, 8);
+    height: 50px !important;
+    width: 50px !important;
+
+    display: block !important;
+    align-items: center;
+    align-content: center;
+  }
+  .Section-ParentCouncilSlider .slick-next::before {
+    font-size: 30px !important;
+    font-weight: 800 !important;
+
+    color: rgb(255, 177, 8);
+    height: 50px !important;
+    width: 50px !important;
+
+    display: block !important;
+    align-items: center;
+    align-content: center;
+    margin-top: unset;
+  }
+
+  .card-parent-council {
+    flex-direction: column;
+  }
+
+  .Section-ParentCouncilSlider {
+    padding: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-parent-council .img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-parent-council .img-narrow {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+  }
+  .Section-ParentCouncilSlider .slick-slider {
+    width: 80%;
+    margin: auto;
+  }
+  .Section-ParentCouncilSlider .slick-prev::before {
+
+    margin-left: -137px;
+  }
+
+  .Section-ParentCouncilSlider .slick-next::before {
+
+    margin-left: -26px;
+  }
+
+}

@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-footer {
+  width: 100%;
+  background-color: #808080;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  height: fit-content !important;
+
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-footer-rigth {
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+}
+.border-raya {
+  border: 1px solid white;
+}
+.contact-footer-image {
+  background: url(/images/FOOTER.png) no-repeat center center;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  margin-right: auto;
+}
+.container-responsive {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+}
+.links-footer-center {
+  width: 60%;
+  height: fit-content;
+
+  display: flex;
+  margin: auto;
+}
+
+.relleno {
+  width: 5%;
+  height: fit-content;
+  margin: auto;
+  background-color: rgb(30, 187, 187);
+}
+.contact-footer-left {
+  width: 20%;
+  height: fit-content;
+
+  display: flex;
+  margin: auto;
+}
+.contact-footer-image-left {
+  background: url(/images/FOOTER.png) no-repeat center center;
+  background-size: contain; /* Cambia 'contain' a 'cover' si es necesario */
+  width: 40%; /* Ajusta al tamaño deseado */
+  height: auto; /* O puesta una altura fija */
+  min-height: 100px; /* Altura mínima para mostrar la imagen */
+}
+
+.links-footer-left {
+  width: 100%;
+  height: 200px;
+}
+
+.links-footer-center .linkd ul {
+  list-style-type: none; /* Elimina los marcadores */
+  padding: 0; /* Sin padding */
+  margin: 10px 0; /* Espacio entre la lista y las líneas */
+}
+
+.links-footer-center .linkd li {
+  position: relative;
+  text-align: center;
+  margin-inline: 10px;
+}
+
+.links-footer-center .linkd a {
+  color: white !important; /* Texto blanco */
+  text-decoration: none !important; /* Sin subrayado */
+  text-decoration: none !important;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  font-weight: 700;
+}
+
+.container {
+  display: flex; /* Alineación horizontal */
+  width: 100%;
+  margin-top: 2%;
+}
+
+.container-links {
+  display: flex;
+  align-items: center;
+}
+
+.general-photo {
+  background: url(/images/FOOTER.png) no-repeat center center;
+  background-size: contain; /* Cambia 'contain' a 'cover' si es necesario */
+  width: 200px; /* Ajusta al tamaño deseado */
+  height: auto; /* O puesta una altura fija */
+  min-height: 100px; /* Altura mínima para mostrar la imagen */
+}
+
+.card-links {
+  flex: 1;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  max-width: 960px;
+}
+li {
+  position: relative;
+  text-align: center;
+  margin-inline: 10px;
+}
+
+a {
+  color: #1c2298 !important;
+  text-decoration: none !important;
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  font-weight: 700;
+}
+
+.divisor2 {
+  width: 80%;
+  height: 1px;
+
+  background-color: #f3f4f5;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.divisorno {
+  display: none;
+  background-color: #f3f4f5;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Responsive */
+.menu {
+  display: none;
+}
+/* .acceso{
+    display: none;
+  } */
+
+  .card-contacto {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .card-contacto p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: Roboto;
+  }
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .contact-footer-rigth {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .links-footer-center .linkd a {
+    font-size: 12px;
+  }
+
+  .links-footer-center {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+  }
+  .links-footer-left {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .contact-footer-contact {
+    width: 100%;
+  }
+  .container-responsive .border-raya {
+    display: none;
+  }
+
+  .container-responsive {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    margin: 0;
+  }
+  .contact-footer-contact .card-contacto {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .contact-footer-rigth {
+    width: 100%;
+  }
+  .contact-footer-image {
+    display: none;
+  }
+
+  .linkd ul {
+    display: block;
+  }
+
+  .container-footer .responsive {
+    display: block !important;
+  }
+  .contact-footer-image {
+    background: none;
+  }
+
+  .contact-footer-image-left {
+    background: none;
+  }
+
+  /* .card-contacto
+{
+  width: 200px;
+  margin: auto;
+  display: flex;
+  text-align: end;
+} */
+
+
+  .links-footer-center .linkd .div {
+    border: 0 !important;
+  }
+  .card-links ul li a {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .links-footer-left {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .contact-footer-contact {
+    width: 100%;
+  }
+  .container-responsive .border-raya {
+    display: none;
+  }
+
+  .container-responsive {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    margin: 0;
+  }
+  .contact-footer-contact .card-contacto {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .contact-footer-rigth {
+    width: 100%;
+  }
+  .contact-footer-image {
+    display: none;
+  }
+
+  .linkd ul {
+    display: block;
+  }
+
+  .container-footer .responsive {
+    display: block !important;
+  }
+  .contact-footer-image {
+    background: none;
+  }
+
+  .contact-footer-image-left {
+    background: none;
+  }
+
+
+
+  .links-footer-center .linkd a {
+    font-size: 12px;
+  }
+
+  .links-footer-center {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+  }
+  .links-footer-center .linkd .div {
+    border: 0 !important;
+  }
+  .card-links ul li a {
+    width: 200px;
+  }
+}

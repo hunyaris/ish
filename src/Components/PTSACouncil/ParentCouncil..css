@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.head-council {
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  background: url(/images/Actividad_extraescolar_niños.jpg)
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.text-Activities-Parents h1 {
+  width: 50%;
+  height: fit-content;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  text-shadow: rgba(28, 34, 152, 0.8) -1px -1px 0px, rgba(23, 50, 199, 0.8) 1px -1px 0px, rgba(8, 27, 101, 0.8) -1px 1px 0px, rgba(34, 1, 193, 0.8) 1px 1px 0px;
+}
+
+.colectivo {
+  position: relative; /* Posición relativa para contener el elemento absolutamente posicionado */
+  background-image: url("/images/AMARILLO-PRIMARY.png");
+  background-repeat: no-repeat;
+  background-size: 30% 80%;
+  right: 0;
+  background-position: 95% -10%;
+}
+.overlay-image {
+  position: absolute;
+  top: 4%;
+  left: 82%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 800px;
+  background-image: url("/images/qq.png") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.intro-council {
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+
+  display: flex;
+
+  position: relative;
+}
+.intro-council-text {
+  width: 50%;
+  height: fit-content;
+
+  background-image: url("/images/AMARILLO-PRIMARY.png");
+
+  background-repeat: no-repeat;
+
+  background-size: 50% 80%;
+
+  right: 0;
+
+  background-position: 0% 0%;
+
+  font-family: Roboto;
+
+
+  color: rgb(92, 92, 92);
+}
+.intro-council-ver {
+  width: 20%;
+  height: fit-content;
+}
+.intro-council-words {
+  width: 20%;
+  height: fit-content;
+
+  background-color: rgb(255, 180, 127);
+
+
+}
+.council-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  text-align: end;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.toggle-button {
+  background-color: #1c2298 !important;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.toggle-button:hover {
+
+  transform: translateY(-2px);
+}
+
+
+
+.toggle-button:active {
+  transform: scale(0.95);
+}
+@media (max-width: 468px) {
+
+  @media (max-width: 468px) {
+    .council-text {
+      font-size: 0.9em;
+
+    }
+  }
+  .council-text {
+    margin-top: 0;
+
+    margin-bottom: 1rem;
+
+    text-align: end;
+
+    line-height: 1.5;
+
+    letter-spacing: 1px;
+
+    font-size: 0.9em;
+
+    width: 100%;
+
+    font-family: Roboto;
+
+  }
+  .colectivo {
+    background: none;
+  }
+
+  .overlay-image{
+display: none;
+  }
+  .text-Activities-Parents h1 {
+    width: 50%;
+
+    height: fit-content;
+
+    margin-left: auto;
+
+    font-weight: 700;
+
+    font-size: 30px;
+
+    color: white;
+
+    text-shadow: rgba(28, 34, 152, 0.8) -1px -1px 0px, rgba(23, 50, 199, 0.8) 1px -1px 0px, rgba(8, 27, 101, 0.8) -1px 1px 0px, rgba(34, 1, 193, 0.8) 1px 1px 0px;
+  }
+  .council p {
+
+    letter-spacing: 1px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro-council-text {
+    width: 100%;
+
+  }
+
+  .colectivo {
+    background: none;
+  }
+
+  .overlay-image{
+display: none;
+  }
+
+}
+
+
+/* @media (min-width: 1024px) {
+
+
+
+  .overlay-image{
+display: none;
+  }
+
+} */

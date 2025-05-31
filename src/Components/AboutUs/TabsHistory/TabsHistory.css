@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.tabsHistory {
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+  margin-top: 5px;
+}
+
+.tabsHistory .card {
+  padding: 20px;
+  border: 2px solid transparent;
+  margin: 90px auto;
+  border-radius: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  border-radius: 0;
+  color: rgb(34, 40, 155);
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-family: Roboto;
+}
+
+.tabsHistory .card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tabsHistory .col-sm-3 {
+  width: 50%;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.tabsHistory .col-sm-9 {
+  width: 50%;
+}
+
+.borderIzq {
+  border-right: 4px solid #ffb608;
+}
+
+.year {
+  color: rgb(34, 40, 155);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.tabsHistory .nav-item .nav-link {
+  border: none;
+  line-height: 1.5;
+  padding: 10px;
+  color: #b1b1b1 !important;
+  font-size: 18px !important;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: start;
+  font-family: Roboto;
+}
+
+.tabsHistory .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #717272;
+  height: fit-content;
+  color: #ffff !important;
+}
+
+.tabsHistory .nav-pills .nav-link {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 500px) {
+  .tabsHistory .col-sm-9 {
+    width: 100%;
+  }
+  .tabsHistory .card {
+    width: 100%;
+    font-size: 14px;
+  }
+  .tabsHistory .col-sm-3 {
+    width: 100%;
+  }
+
+  .tabsHistory .nav-item .nav-link {
+    font-size: 12px !important;
+  }
+
+  .year {
+    color: rgb(34, 40, 155);
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 810px) {
+  .tabsHistory .card {
+    width: 100%; /* O algún otro valor que desees */
+  }
+
+  .year {
+    color: rgb(34, 40, 155);
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .tabsHistory .row {
+    flex-direction: row !important;
+  }
+}

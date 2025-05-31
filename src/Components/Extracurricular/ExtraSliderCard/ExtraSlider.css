@@ -1,0 +1,276 @@
+.Section-Card-Activities {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Section-Card-Activities .slick-slider {
+  width: 80%;
+}
+
+
+
+.Section-Card-Activities .card {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+
+  margin: 0 auto;
+  border: 0 !important;
+  background: none !important ;
+  margin-top: -3%;
+}
+
+.Section-Card-Activities .card-content {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 0 !important;
+}
+
+
+
+.Section-Card-Activities .card-titulos {
+background: none !important;
+}
+
+.Section-Card-Activities .card img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.Section-Card-Activities .card img:hover {
+  transform: scale(1.3);
+}
+
+.Section-Card-Activities .slick-next {
+  z-index: 1;
+  margin-top: -23% !important;
+  margin-right: -2%;
+}
+.Section-Card-Activities .slick-prev{
+  z-index: 1;
+  margin-top: -23% !important;
+  margin-left: -4%;
+}
+
+
+.Section-Card-Activities .slick-next::before {
+  font-family: "slick" !important;
+  font-size: 25px !important;
+  line-height: 1.8 !important;
+  opacity: 1 !important;
+  color: #f4f6f7 !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: solid 2px #eeeff1 !important;
+  display: block !important;
+}
+.Section-Card-Activities .slick-prev::before {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  color: #f4f6f7 !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  border: solid 3px #eeeff1 !important;
+  display: block !important;
+  align-items: center;
+  align-content: center;
+  font-family: Roboto;
+}
+
+
+.Section-Card-Activities .slick-next::before {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  color: #f4f6f7 !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  border: solid 3px #eeeff1 !important;
+  display: block !important;
+  align-items: center;
+  align-content: center;
+  font-family: Roboto;
+}
+.Section-Card-Activities .carouselControles .slick-dots {
+  bottom: 10px; /* Espacio desde el fondo, ajusta según necesites */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .Section-Card-Activities .card {
+      width: 90%; /* Tarjetas más estrechas en pantallas más pequeñas */
+      margin: 10px 0; /* Margen ajustado */
+
+  }
+}
+
+@media (max-width: 468px) {
+  .Section-Card-Activities .card {
+      width: 100%; /* Tarjeta ocupa todo el ancho en móviles */
+
+
+
+  }
+  .sitiosdeinterestitulo {
+    color: #ffffff;
+    font-size: 31px;
+    text-align: left;
+    z-index: 1;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+
+.Section-Card-Activities .slick-next::before {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  color: #f4f6f7 !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  border: solid 3px #eeeff1 !important;
+  display: block !important;
+  align-items: center;
+  align-content: center;
+  background-color: #78a1b3;
+}
+.Section-Card-Activities .slick-prev::before {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  color: #f4f6f7 !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+  border: solid 3px #eeeff1 !important;
+  display: block !important;
+  align-items: center;
+  align-content: center;
+  background-color: #78a1b3;
+}
+
+.Section-Card-Activities .slick-prev {
+  left: -7%;
+  margin-top: -60% !important ;
+  }
+  .Section-Card-Activities .slick-next {
+    right: -3% !important;
+    margin-top: -60% !important ;
+  }
+
+
+
+
+}
+
+.Section-Card-Activities .card img {
+
+  width: 100% !important;
+
+
+}
+
+
+
+@media (min-width: 469px) and (max-width: 1024px) {
+  .Section-Card-Activities .card {
+    width: 90%; /* Tarjetas más estrechas en pantallas más pequeñas */
+    margin: 10px 0; /* Margen ajustado */
+
+}
+.Section-Card-Activities .card img {
+  width: 100% !important;
+  height: auto !important;
+}
+.Activities {
+
+  height: fit-content;
+}
+
+.Section-Card-Activities .slick-next::before {
+
+  background-color: #78a1b3;
+}
+
+
+.Section-Card-Activities .slick-prev::before {
+
+  background-color: #78a1b3;
+}
+.Activities-background {
+  width: 100%;
+  height: 34%;
+  margin: 0 auto;
+  position: relative;
+  background: none;
+}
+.Section-Card-Activities .slick-next {
+  z-index: 1;
+  margin-top: -23% !important;
+  margin-right: 5% !important;
+}
+}
+
+@media (max-width: 468px) {
+.Section-Card-Activities .card {
+    width: 100%; /* Tarjeta ocupa todo el ancho en móviles */
+
+
+
+}
+
+
+.Section-Card-Activities .slick-next::before {
+font-size: 18px !important;
+font-weight: 800 !important;
+opacity: 1 !important;
+color: #f4f6f7 !important;
+height: 30px !important;
+width: 30px !important;
+border-radius: 50% !important;
+border: solid 3px #eeeff1 !important;
+display: block !important;
+align-items: center;
+align-content: center;
+background-color: #78a1b3;
+}
+.Section-Card-Activities .slick-prev::before {
+font-size: 18px !important;
+font-weight: 800 !important;
+opacity: 1 !important;
+color: #f4f6f7 !important;
+height: 30px !important;
+width: 30px !important;
+border-radius: 50% !important;
+border: solid 3px #eeeff1 !important;
+display: block !important;
+align-items: center;
+align-content: center;
+background-color: #78a1b3;
+}
+
+.Section-Card-Activities .slick-prev {
+left: -7%;
+margin-top: -60% !important ;
+}
+.Section-Card-Activities .slick-next {
+  right: 5% ;
+  margin-top: -60% !important ;
+}
+}

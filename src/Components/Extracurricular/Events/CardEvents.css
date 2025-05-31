@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.Events .card-v {
+  position: relative;
+  width: 100%;
+  padding: 20px; /* Agregué padding para mayor espacio interior */
+  border: 2px solid transparent; /* Añade un borde de referencia si es necesario */
+  margin: 90px auto;
+  border-radius: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  background: #ffff; /* Fondo blanco para una mejor apariencia */
+}
+
+.card-content-v {
+  position: relative;
+  z-index: 1;
+  padding: 0 !important;
+}
+
+.card:hover .card-img img {
+  transform: none !important;
+  transition: none !important;
+}
+
+.Events .card-img,
+.card-img-top,
+.card-img-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.Events.card-img,
+.card-img-top,
+.card-img-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.text-events-title {
+  font-size: 48px;
+  color: #42498e;
+  font-weight: 500;
+  margin-bottom: 12px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.text-events-date {
+  font-size: 32px;
+  color: #42498e;
+  font-weight: 500;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.text-events-place {
+  font-size: 24px;
+  color: #d7ae64;
+  font-weight: 400;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.text-events-text {
+  font-size: 20px;
+  color: #5c5c5c;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-family: Roboto;
+}
+
+.Events  .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .Events .card {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .Events .text-events-title {
+    font-size: 14px;
+  }
+  .Events .card-v {
+    margin: unset;
+  }
+  .Events .card {
+    flex: 1 1 100%;
+  }
+  .text-events-title {
+    font-size: 20px;
+  }
+  .text-events-date {
+    font-size: 12px;
+  }
+  .text-events-place {
+    font-size: 12px;
+    color: #d7ae64;
+    font-weight: 400;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .text-events-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.Events .col-md-6 {
+  flex: 0 1 40% !important;
+  margin: 10px !important;
+}
+
+
+.Events .row {
+  flex-direction: row       !important;
+  justify-content: center !important;
+
+  align-items: center !important;
+}
+
+
+}

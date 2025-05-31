@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.ListGroups {
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+
+
+}
+
+.ListGroups .list-group-horizontal {
+  flex-direction: row;
+  width: 60%;
+  height: fit-content;
+
+  justify-content: center;
+}
+
+.ListGroups .list-group-horizontal > .list-group-item {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+  width: 30%;
+  height: fit-content;
+
+  display: block;
+  border: 0;
+  padding: 0;
+}
+
+.ListGroups .list-group-horizontal > .list-group-item .circle {
+  width: 140px;
+  height: 141px;
+  border-radius: 50%;
+  background-color: #80aa3d;
+  align-content: center;
+  display: block;
+}
+.contenedor-raya {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+}
+
+.raya {
+  width: 30%;
+  height: 100%;
+}
+.number {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.pace {
+  width: 90%;
+  height: 20%;
+
+  margin: auto;
+  justify-content: center;
+  margin-top: 4%;
+  text-align: start;
+}
+
+.recta {
+  width: 100%;
+  height: 2px;
+  border-top: 3px dotted #ffb708;
+  margin: auto;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .ListGroups {
+    margin: auto;
+    width: 90%;
+
+    margin: auto;
+    height: fit-content;
+  }
+
+  .ListGroups .list-group-horizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+  }
+  .ListGroups .list-group-horizontal > .list-group-item {
+    flex: 0 0 45%;
+    margin: 5px;
+  }
+
+  .contenedor-raya {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsive-link {
+    width: 100%;
+  }
+
+  .custom-container {
+    width: 90%;
+  }
+
+  .custom-yellow-button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+  }
+  .ListGroups .list-group-horizontal > .list-group-item .raya {
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px)  and (max-width: 1024px) {
+  .ListGroups {
+    margin: auto;
+    width: 90%;
+
+    margin: auto;
+    height: fit-content;
+  }
+
+  .ListGroups .list-group-horizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+  }
+  .ListGroups .list-group-horizontal > .list-group-item {
+    flex: 0 0 45%;
+    margin: 5px;
+  }
+
+  .contenedor-raya {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsive-link {
+    width: 100%;
+  }
+
+  .custom-container {
+    width: 90%;
+  }
+
+  .custom-yellow-button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+  }
+  .ListGroups .list-group-horizontal > .list-group-item .raya {
+    display: none;
+  }
+}

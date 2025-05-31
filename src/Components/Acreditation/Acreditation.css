@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.section-acreditation {
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+  .Separador {
+    text-align: center;
+    padding: 50px;
+    background-color: #808080;
+  }
+
+  .separador-header {
+    font-size: 2em;
+    margin: 0;
+    color: #fff;
+  }
+
+  .separador-text {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: white;
+  }
+
+
+
+  .section-acreditation .card {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .section-acreditation .card img {
+    width: 100%;
+    height: auto;
+  }
+
+
+@media (max-width: 768px) {
+  .section-acreditation .col {
+    flex: 1 1 45%;
+    max-width: 220px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .section-acreditation {
+    min-height: 300px;
+  }
+
+  .section-acreditation .card img {
+    max-width: 180px;
+    max-height: 120px;
+  }
+
+  .separador-header {
+    font-size: 1.5em;
+  }
+
+  .Separador {
+    text-align: center;
+    padding: 20px;
+    background-color: #808080;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-acreditation .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-acreditation .col {
+    flex: 1 1 30%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .section-acreditation .card img {
+    max-width: 150px;
+  }
+
+  .section-acreditation {
+    min-height: 300px;
+  }
+
+  .separador-header {
+    font-size: 1.5em;
+  }
+
+  .Separador {
+    text-align: center;
+    padding: 20px;
+    background-color: #808080;
+  }
+}

@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.Employement {
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+  margin-top: 5px;
+}
+
+.Employement .card {
+  padding: 20px;
+  border: 2px solid transparent;
+  margin: 90px auto;
+  border-radius: none;
+  text-align: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: auto;
+  border-radius: 0;
+  color: #d7ae64;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  background: transparent;
+}
+
+.Employement .card-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.Employement .col-sm-3 {
+  width: 30%;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.Employement .col-sm-9 {
+  width: 60%;
+}
+
+.Employement .borderDer {
+  border-left: 4px solid #ffb608;
+  height: fit-content;
+  overflow-y: auto;
+  max-height: 50vh;
+  padding-right: 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.year {
+  color: rgb(34, 40, 155);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Employement .nav-pills .nav-link {
+  border-color: #070707 !important;
+}
+
+.Employement .nav-item .nav-link {
+  border-color: #ffb608;
+  border-bottom: 2px solid transparent;
+  line-height: 1.5;
+  padding: 10px;
+  color: #b1b1b1 !important;
+  font-size: 18px !important;
+  letter-spacing: 2px;
+  text-align: start;
+  transition: border-color 0.3s;
+}
+
+.Employement .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #d7ae64 !important;
+  color: #0c0c0c !important;
+}
+
+.Employement .nav-pills .nav-link {
+  border-radius: 0 !important;
+}
+
+button {
+  border-radius: 0;
+  color: #fff;
+  background: #e5e5e5; /* Cambia esto según el estado activo */
+  border: none; /* Sin borde para un look más limpio */
+  padding: 10px 20px; /* Ajuste para padding */
+  font-size: 16px; /* Tamaño de fuente por defecto */
+  display: inline-flex; /* Usa flexbox para centrar */
+  align-items: center; /* Alinea verticalmente el texto */
+  justify-content: center; /* Alinea horizontalmente el texto */
+  cursor: pointer; /* Cambia el cursor a pointer */
+  transition: background 0.3s ease; /* Suaviza la transición */
+}
+
+button:disabled {
+  background: #ccc; /* Color para el botón desactivado */
+  cursor: not-allowed; /* Cambia el cursor para deshabilitado */
+}
+
+@media (max-width: 768px) {
+  .Employement .col-sm-9 {
+    width: 100%;
+    margin-top: -79%;
+  }
+  .Employement .card {
+    width: 100%;
+  }
+  .Employement .col-sm-3 {
+    width: 100%;
+  }
+
+  .Employement .nav-item .nav-link {
+    font-size: 10px !important;
+  }
+
+  .year {
+    color: rgb(34, 40, 155);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Employement .button {
+    width: 80% !important;
+  }
+}
+
+.Employement .colectivo {
+  background-image: url("/images/MESA-1-LISTO.png");
+  background-repeat: no-repeat;
+  background-size: 20% 50%;
+  right: 0;
+  background-position: 100% 74%;
+}
+
+.Employement .colectivo {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .Employement .colectivo {
+    background: none;
+  }
+
+  .span {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 810px) {
+  .Employement .card {
+    width: 100%;
+  }
+
+  .year {
+    color: rgb(34, 40, 155);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .Employement {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .Employement .col-sm-3 {
+    width: 40%;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .Employement .col-sm-9 {
+    width: 55%;
+    margin-left: 5%;
+  }
+
+  .Employement .card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .Employement .borderDer {
+    max-height: 60vh;
+  }
+
+  .Employement .nav-item .nav-link {
+    font-size: 16px !important;
+  }
+
+  .Employement .text-history-h3 {
+    font-size: 24px;
+  }
+
+  .Employement .text-history-h1 {
+    font-size: 36px;
+  }
+
+  .year {
+    font-size: 28px;
+  }
+  .Employement .button {
+    width: 50% !important;
+  }
+
+  .Employement .row {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Employement .row {
+    flex-direction: row !important;
+  }
+}

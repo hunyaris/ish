@@ -1,0 +1,62 @@
+
+
+  .card-links{
+    /* display: none; */
+
+    width: 100%;
+    height: fit-content;
+    display: block ;
+
+  height: fit-content;
+  align-items: start;
+
+
+
+
+
+
+  }
+  .border-raya-vertical{
+    border-left: 2px solid #f7f5f0;
+
+
+  }
+  .card-links ul{
+  display: block;
+  margin-left: -16%;
+}
+
+
+  .card-links ul li a{
+
+  margin: 0;
+  padding: 0;
+  text-align: start;
+
+  color: white !important;
+  font-size: 12px ;
+  }
+
+
+  @media (max-width: 468px) {
+
+    .border-raya-vertical{
+
+      border-left:0;
+
+    }
+
+    .card-links ul li a{
+
+      margin: 0;
+      padding: 0;
+      text-align: start;
+
+      color: white !important;
+      font-size: 12px ;
+      padding: 5px;
+      }
+
+
+
+  }

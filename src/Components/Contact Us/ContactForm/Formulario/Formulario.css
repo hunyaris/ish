@@ -1,0 +1,34 @@
+.contactForm-item{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+
+    }
+    .contactForm-item1{
+        width: 100%;
+        height: fit-content;
+
+        }
+
+
+        .css-1s5vo3j-MuiButtonBase-root-MuiButton-root {
+         background-color: rgb(229, 229, 229) !important;
+         color: rgb(173, 143, 72) !important;
+         border-radius: 35px !important;
+         width: 30% !important;
+         margin-top: 2% !important;
+
+
+
+
+        }
+        .css-1gqbnrk-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root fieldset {
+            border-color: rgb(173, 143, 72) !important;
+            border-radius: 0px;
+            border: 3px solid  rgb(173, 143, 72) !important;
+          }
+        @media only screen and (max-width: 980px) {
+            .contact-box {
+                margin-left: auto;
+            }
+        }

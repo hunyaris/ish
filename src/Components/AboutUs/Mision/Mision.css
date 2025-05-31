@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.Mision {
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+}
+
+.misionVision {
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+
+  display: block;
+}
+
+.misionVision1 {
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+}
+
+.Our {
+  color: #565656;
+  font-size: 4.3em;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+}
+.titleSection {
+  margin: auto;
+  width: 50%;
+  height: fit-content;
+}
+.misionBody {
+  margin: auto;
+  width: 50%;
+  height: fit-content;
+}
+.misionVision2 {
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+}
+
+.visionBody {
+  margin-right: auto;
+  width: 50%;
+  height: fit-content;
+}
+
+.Mision {
+  padding: 20px;
+}
+
+.misionVision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.misionVision1,
+.misionVision2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .misionVision1 {
+    margin: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: fit-content;
+    display: block;
+  }
+  .Our {
+    color: #565656;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .Mision .card {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  .Mision .card-title {
+    font-size: 1.25em !important;
+    font-weight: 500 !important;
+  }
+
+  .misionBody {
+    width: 100%;
+  }
+  .visionBody {
+    width: 100%;
+  }
+  .titleSection {
+
+    width: 100%;
+
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .misionVision1 {
+    margin: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: fit-content;
+    display: block;
+  }
+  .Our {
+    color: #565656;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .Mision .card {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  .Mision .card-title {
+    font-size: 1.25em !important;
+    font-weight: 500 !important;
+  }
+
+  .misionBody {
+    width: 100%;
+  }
+  .visionBody {
+    width: 100%;
+  }
+  .titleSection {
+
+    width: 100%;
+
+  }
+}
