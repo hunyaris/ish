@@ -5,15 +5,9 @@ import { QuickLinksContext } from "../../Context/Context";
 
 const WelcomeISH = ({ globalDomain, message }) => {
   const admision = useContext(QuickLinksContext);
-  
-  // ⚠️ NOTA: Si no tienes el Contexto configurado en GitHub Pages, 
-  // esto podría dar error. Si te da error, comenta las siguientes 3 líneas
-  // y usa directamente: const url = "https://www.ejemplo.com";
-  const filterAdmision = admision ? admision.filter((link) => link.title === "Admissions") : [];
-  const url = filterAdmision.length > 0 ? filterAdmision[0].url : "https://www.ejemplo.com";
 
-  // 🚀 AQUÍ ESTÁN LOS DATOS DE PRUEBA
-  // En lugar de un array vacío [], ponemos un objeto con la propiedad "body"
+
+
   const [messageHome, setMessageHome] = useState({
     body: "Este es un texto de prueba para el componente WelcomeISH. Aquí normalmente se mostraría el mensaje que viene de la API. Puedes cambiar este texto por el que quieras para probar el diseño."
   });
