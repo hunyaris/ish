@@ -7,7 +7,7 @@ const History = ({ field_ish_history }) => {
   // 🚀 DATOS DE PRUEBA (MOCK)
   // Aquí puedes escribir el texto que quieras que se muestre por defecto.
   // Si tu API normalmente devuelve un array de párrafos, cámbialo por: ["Párrafo 1", "Párrafo 2"]
-  const textoDePrueba = "Este es un texto de prueba para el componente History. Aquí normalmente se mostraría la historia de la ISH que viene desde la API. Puedes usar este espacio para verificar que los estilos, el diseño y la tipografía se ven correctamente en tu despliegue de GitHub Pages.";
+  const textoDePrueba = "Este es un texto de prueba para el componente History. Aquí normalmente se mostraría la historia de la ISH que viene desde la API. ";
 
   // Si field_ish_history tiene datos, usamos los reales. 
   // Si no (undefined, null o vacío), usamos el texto de prueba.
