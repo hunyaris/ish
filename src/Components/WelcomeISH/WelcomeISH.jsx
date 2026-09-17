@@ -1,19 +1,15 @@
-// import axios from "axios"; // ❌ Ya no lo necesitamos por ahora
-import React, { useContext } from "react";
+import axios from "axios";
+import React, { useEffect, useState, useContext } from "react";
 import "../WelcomeISH/WelcomeISH.css";
 import { QuickLinksContext } from "../../Context/Context";
 
 const WelcomeISH = ({ globalDomain, message }) => {
   const admision = useContext(QuickLinksContext);
+  const filterAdmision = admision.filter((link) => link.title === "Admissions");
+  const url = filterAdmision.length > 0 ? filterAdmision[0].url : null;
 
+  const [messageHome, setMessageHome] = useState([]);
 
-
-  const [messageHome, setMessageHome] = useState({
-    body: "Este es un texto de prueba para el componente WelcomeISH. Aquí normalmente se mostraría el mensaje que viene de la API. Puedes cambiar este texto por el que quieras para probar el diseño."
-  });
-
-  // ❌ API DESACTIVADA POR AHORA
-  /*
   useEffect(() => {
     axios
       .get(`${globalDomain}welcomeISH/${message}?_format=json`)
@@ -21,7 +17,6 @@ const WelcomeISH = ({ globalDomain, message }) => {
         setMessageHome(res.data[0]);
       });
   }, [message, globalDomain]);
-  */
 
   return (
     <section
@@ -67,7 +62,7 @@ const WelcomeISH = ({ globalDomain, message }) => {
                   }}
                 ></p>
                 <img
-                  src="images/MESA-1-LISTO.png"
+                  src="/images/MESA-1-LISTO.png"
                   alt="Descripción de la imagen"
                   style={{
                     position: "absolute",
@@ -121,7 +116,6 @@ const WelcomeISH = ({ globalDomain, message }) => {
                     marginTop: "5%",
                   }}
                 >
-                  {/* Aquí se mostrará el texto de prueba */}
                   {messageHome.body}
                 </p>
               </div>
